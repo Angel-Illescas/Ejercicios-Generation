@@ -1,0 +1,40 @@
+.encabezado{
+    font-size: 70px; /* Tamaño de letra, puede ser en px, cm, in  */
+    color: aquamarine; /* color de letra */
+    background-color: blueviolet; /* Color de fondo */
+    text-align: center; /* centrar texto */
+    text-transform: uppercase;
+  }
+       /* H1 || en este caso h1 es el selector, el primer elemento de un css, digamso al elemento que se le dara ese estilo */
+       
+    p   {
+
+        background-color: aqua;
+        color: rgb(24, 23, 22);
+    }
+
+    p {
+color: chartreuse;
+background-color: darkblue;
+
+    }   /* eqtiqueta nivel 1 */
+
+    .texto{
+color: darkblue;
+background-color: darkcyan;
+
+/* clase  nivel2*/
+    }
+
+    #texto{
+        color: rgb(134, 134, 151);
+        background-color: darkcyan;
+        font-size: 24px;
+        font-style: italic;
+
+
+
+
+        /* Id nivel 3 */
+        
+            }

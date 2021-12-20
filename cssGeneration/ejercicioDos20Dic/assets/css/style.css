@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(197, 237, 238);
+}
+
+h1{
+    text-align: right;
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+strong{
+    color: orangered;
+}
+
+p{
+    text-indent: 2%;
+}
+
+
+
+.subrayado{
+    color: seagreen;
+    background-color: rgb(212, 243, 212);
+}
