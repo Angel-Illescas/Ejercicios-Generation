@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Tablas</title>
+</head>
+<link rel="stylesheet" href="assets/css/tablas.css">
+<body>
+    <h1>Tablas</h1>
+
+<!-- <table>
+
+    <thead> table root // fila de tabla
+
+        <tbody>
+
+            <tfoot>
+
+            </tfoot>
+
+        </tbody>
+
+    </thead>
+
+</table> -->
+
+<table>
+    <thead>
+        <tr> <!-- Fila -->
+            <th>Cabecera</th> <!-- Celda -->
+            <th>Cabecera2</th>
+            <th>Cabecera3</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Hola</td>
+            <td>Hola1</td>
+            <td>Saludo2</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td>Pie de tabla</td>
+            <td>Pie de tabla2</td>
+            <td>Pie de tabla3</td>
+        </tr>
+    </tfoot>
+</table>
+
+<!-- colspan // para extiende por columnas 
+     rowspan se extienda por filas
+-->
+<br>
+
+<table>
+    <thead>
+        <tr> <!-- Fila -->
+            <th>Cabecera</th> <!-- Celda -->
+            <th colspan="2">Cabecera2</th>
+            <!-- <th></th> -->
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Hola</td>
+            <td>Hola1</td>
+            <td>Saludo2</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td>Pie de tabla</td>
+            <td>Pie de tabla2</td>
+            <td>Pie de tabla3</td>
+        </tr>
+    </tfoot>
+</table>
+
+
+<br>
+
+<table>
+    <thead>
+        <tr> <!-- Fila -->
+            <th>Cabecera</th> <!-- Celda -->
+            <th >Cabecera2</th>
+            <!-- <th></th> -->
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="2">Hola</td>
+            <td>Hola1</td>
+            <td>Saludo2</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td>Pie de tabla</td>
+            <td>Pie de tabla2</td>
+            <td>Pie de tabla3</td>
+        </tr>
+    </tfoot>
+</table>
+</body>
+</html>
