@@ -1,0 +1,86 @@
+form{
+    width: 350px;
+    height: 350px;
+    background-color: rgb(8, 158, 21);
+    padding: 30px;
+    border: darkcyan 10px solid;
+    color: white;
+   
+}
+
+label{
+    display: inline-block;
+    width: 100px;
+    margin-left: 20px;
+    margin: 3px;
+}
+
+div{
+    
+    margin-left: 30px;
+ 
+}
+
+.confirmar{
+    width: 150px;
+    height: 20px;
+    border-top: white 1px dashed;
+    padding: 16px;
+}
+
+.class-nombre  {
+     border: red solid 3px;
+}
+
+.class-mail{
+    border: red solid 3px;
+}
+.class-telefono{
+    border: red solid 3px;
+}
+.class-pais{
+    border: red solid 3px;
+}
+.class-numero{
+    border: red solid 3px;
+}
+.class-nombre1{
+    border: red solid 3px;
+}
+
+
+/* .nombre{
+    text-indent: 10%;
+}
+
+.class-nombre{
+
+    border: 3px solid red;
+   
+    
+}
+
+.mail{
+    text-indent: 10%; 
+}
+
+.class-mail{
+    border: 3px solid red;
+    
+}
+
+.telefono{
+    text-indent: 10%;
+}
+
+.pais{
+    text-indent: 10%;
+}
+
+.numero{
+    text-indent: 10%;
+}
+
+.nombre1{
+    text-indent: 10%; */
+}

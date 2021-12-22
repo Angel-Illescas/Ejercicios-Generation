@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+   
+    <title>Formularios</title>
+</head>
+<link rel="stylesheet" href="assets/css/style.css">
+<body>
+    <form>
+        <input type="text">
+        <input type="date">
+        <input type="color">
+        <input type="password">
+        <input type="file"> 
+        <input type="checkbox">
+        <input type="radio">
+        <input type="submit">
+        <input type="button" value="hola">
+    </form>
+
+<h1>Formulario</h1>
+    <form class="formulario">
+
+       <!--  <fieldset>
+            
+        </fieldset>  ES OPCIONAL, SEGUN PARA ORDENAR -->
+
+<div class="nombre">
+    <label for="nombre">
+        Nombre
+        </label>
+        <input class="class-nombre"  id="nombre" type="text" name="nombre" placeholder="Escribe tu nomnre"> <!-- placeholder, da una descripcion o ejemplo de que queremos en ese campo -->
+</div>
+
+<div class="apellido">
+<label for="apellido">Apellido</label>
+<input class="class-apellido" id="apellido" type="text" name="apellido" placeholder="Ahora escribe tu apellido" required>
+</div>
+
+<div class="password">
+    <label for="contraseña">Contraseña</label>
+    <input class="class-password" id="password" type="password" name="password" placeholder="Escribe tu contraseña">
+</div>
+
+<div class="correo">
+    <label for="coreo">Correo</label>
+    <input type="email" name="correo" id="correo" placeholder="Escribe tu correo">
+</div>
+
+<div class="enviar" style="border: 0px solid white;">
+    <input class="class-enviar" id="enviar" type="submit" name="enviar" value="Enviar">
+</div>
+
+
+
+    </form>
+<br>
+
+<form >
+<fieldset>
+<legend>Ingresa tu numero</legend>
+<label for="numero">Numero</label>
+<input type="number" name="numero" id="numero">
+</fieldset> <!-- Se ve bien pero con legend -->
+<label for="rango">Rango</label>
+<input type="range" name="rango" id="rango" min="50">
+
+</form>    
+</body>
+</html>

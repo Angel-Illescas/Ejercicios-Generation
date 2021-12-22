@@ -1,0 +1,45 @@
+body{
+  /*  background-image: url(http://proyectosbeta.net/wp-content/uploads/2013/07/WallPapers_Texturas01.jpg); */
+}
+
+h1{
+    color: blue;
+    text-align: center;
+}
+h2{
+    color: blue+;
+    text-align: center;
+}
+.title{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.subtitle{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.caja
+{
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px;/*  con bottom solo se coloca en la parte inferior */
+    font-size: 50px;
+    padding: 20px; /* margen interno */
+    border-radius: 10px; /* PARA PONER LOS BORDES CURVOS */
+}
+
+.rojo{
+    /* background-color: red; */
+    /* border: 1px solid red; */
+    /* border: 1px dashed red;    BORDE CON LINEAS */
+   /*  border: 1px dotted red; BORDE CON PUNTOS */
+    border: 5px double red;  /*  borde con doble linea */
+}
+.verde{
+    /* background-color: seagreen; */
+    border: 5px dashed green;
+}
+.azul{
+    /* background-color: blue; */
+    border: 5px dotted blue;
+}
