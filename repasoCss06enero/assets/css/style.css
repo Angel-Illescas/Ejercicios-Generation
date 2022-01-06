@@ -1,0 +1,31 @@
+.menu{
+    background-color: rgb(70, 69, 65);
+    height: 50px;
+    
+}
+
+.menu ul{
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.elemento{
+    display: inline;
+    margin: 0 20px;   /* superior derecha inferior izquierda */
+}
+
+.elemento a {
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    line-height: 50px;  /* Para texto, para las cajas con margin  */
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    transition: color 1s;
+}
+.elemento a:hover{
+    color: tomato;
+    background-color: turquoise;
+    font-size: 30px;
+}
