@@ -1,0 +1,33 @@
+body{
+    background-color: azure;
+}
+
+.contenedor{
+    display: flex;  /* primer paso para flex sistem */
+    height: 600px;
+    border: 1px solid purple;
+    justify-content: space-evenly;  /* alineacion horizontal */
+    align-items: flex-start;  /* alieacion vrtical */
+    flex-wrap: wrap;  /* Indicacion para cuando el area es menos a la establecida */
+}
+
+.caja{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.rojo{
+    background-color: rgb(235, 42, 93);
+}
+.azul{
+    background-color: blue;
+   /*  align-self: flex-end; */
+}
+.verde{
+    background-color: greenyellow;
+   /*  align-self: center; */
+}
+.amarillo{
+    background-color: yellow;
+}
